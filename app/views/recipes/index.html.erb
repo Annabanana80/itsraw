@@ -1,0 +1,25 @@
+<body>
+<div class="container">
+<h1 class="col s12; #d50000 red accent-4">It's RAAWWW!!!!</h1>
+
+
+<button class="#d50000 red accent-4"><a href= "/recipes/new" class="black-text text-darken-2">ADD A NEW RECIPE</a></button>
+<table class="bordered #ffffff white">
+  <tr>
+    <th>Title</th>
+    <th>Image</th>
+    <th>Description</th>
+    <th>Made it yet?</th>
+  </tr>
+
+  <% @recipes.each do |recipe| %>
+    <tr>
+      <td><button class="#d50000 red accent-4"><%= link_to recipe.title, recipe, :style=>"color:black;" %></td></button>
+      <td><img style='width: 100px; height 100px;' src =<%= recipe.img %> /></td>
+      <td><%= recipe.description %></td>
+      <td><%= recipe.made_it_yet %></td>
+    </tr>
+  <% end %>
+</table>
+</div>
+</body>

@@ -1,0 +1,27 @@
+<h2 class= "center col s12; #d50000 red accent-4">New Ingredient</h2>
+<div class="card-panel #d50000 red accent-4">
+<br>
+<%= form_for @ingredient do |f| %>
+<div>
+    <%= f.hidden_field :recipe_id, :value => params[:recipe_id] %>
+</div>
+<div>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+</div>
+<div>
+    <%= f.label :amount %>
+    <%= f.text_field :amount %>
+</div>
+<div>
+    <%= f.label :measurement %>
+    <%= f.text_field :measurement %>
+</div>
+<div>
+    <%= f.label :is_available %>
+    <%= f.check_box :is_available %>
+</div>
+<%= f.submit "Submit" %>
+<% end %>
+</div>
+<div class="center"><button class="#d50000 red accent-4"><a href= "/" class="black-text text-darken-2">GET OUT!!!</a></button></div>
