@@ -1,9 +1,8 @@
 <body>
 <div class="container">
-<h1 class="col s12; #d50000 red accent-4">It's RAAWWW!!!!</h1>
-
-
-<button class="#d50000 red accent-4"><a href= "/recipes/new" class="black-text text-darken-2">ADD A NEW RECIPE</a></button>
+<h1 class="center col s12; #d50000 red accent-4">It's RAAWWW!!!!</h1>
+<div class="center"><button class="#d50000 red accent-4"><a href= "/recipes/new" class="black-text text-darken-2">ADD A NEW RECIPE</a></button></div>
+<br><br>
 <table class="bordered #ffffff white">
   <tr>
     <th>Title</th>
@@ -14,7 +13,7 @@
 
   <% @recipes.each do |recipe| %>
     <tr>
-      <td><button class="#d50000 red accent-4"><%= link_to recipe.title, recipe, :style=>"color:black;" %></td></button>
+      <td><button class="#d50000 red accent-4" style="width:100%"><%= link_to recipe.title, recipe, :style=>"color:black;" %></td></button>
       <td><img style='width: 100px; height 100px;' src =<%= recipe.img %> /></td>
       <td><%= recipe.description %></td>
       <td><%= recipe.made_it_yet %></td>

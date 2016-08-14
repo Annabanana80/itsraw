@@ -18,8 +18,9 @@
 <br>
 <button class="#d50000 red accent-4"><%= link_to "DONKEY!!Edit #{@recipe.title}", edit_recipe_path(@recipe), :style=>"color:black;" %></button>
 <button class="#d50000 red accent-4"><%= link_to "SHUT IT DOWN!", recipe_path(@recipe), method: :delete, data: { confirm: 'Are you sure you want to delete?' }, :style=>"color:black;"%></button>
-<h3 class="#d50000 red accent-4">Ingredients</h3>
-<button class="#d50000 red accent-4"><%= link_to "New Ingredient", new_ingredient_path(:recipe_id => @recipe.id), :style=>"color:black;"%></button>
+<h3 class="center col s12; #d50000 red accent-4">Ingredients</h3>
+<div class="center"><button class="#d50000 red accent-4"><%= link_to "New Ingredient", new_ingredient_path(:recipe_id => @recipe.id), :style=>"color:black;"%></button></div>
+<br><br>
 <table class="bordered #ffffff white">
   <tr>
     <th>Name</th>
