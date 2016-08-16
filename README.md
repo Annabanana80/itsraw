@@ -1,24 +1,3 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is the the Gordon Ramsey verson of the Recipe Saver only instead of a visually pleasing yellow gingham background, there are tiled Gordon Ramsey angry faces. The edit button says "Donkey!", the delete button says "Shut it Down!", and the back button from the show page says "Get out!". Yes, I am a fan.
