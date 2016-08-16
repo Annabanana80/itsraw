@@ -41,7 +41,6 @@ Ingredient.create(recipe_id: 1, name: "Mushrooms", amount: 1, measurement: "500g
 Ingredient.create(recipe_id: 1, name: "Thyme Sprig", amount: 1, measurement: "Each", is_available: true)
 Ingredient.create(recipe_id: 1, name: "Puff Pastry", amount: 1, measurement: "500g/A little over a pound", is_available: true)
 Ingredient.create(recipe_id: 1, name: "Parma Ham", amount: 8, measurement:  "Slices", is_available: true)
-Ingredient.create(recipe_id: 1, name: "Strong Coffee", amount: 2, measurement: "Cup", is_available: true)
 Ingredient.create(recipe_id: 1, name: "Egg Yolks, beaten", amount: 2, measurement: "Each", is_available: true)
 Ingredient.create(recipe_id: 1, name: "Water", amount: 1, measurement: "Tablespoon", is_available: true)
 Ingredient.create(recipe_id: 1, name: "Salt", amount: 1, measurement: "Pinch", is_available: true)
