@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Recipe.create(title: "Beef Wellington", img: "https://gordonramsay-2938.kxcdn.com/assets/Recipes/_resampled/CroppedFocusedImage108081050-50-APPROVED-Gordons-Wellington2.jpg", description: "A traditional British dish", 
+Recipe.create(title: "Beef Wellington", img: "https://www.gordonramsay.com/assets/Recipes/_resampled/CroppedFocusedImage192072050-50-APPROVED-Gordons-Wellington2.jpg", description: "A traditional British dish", 
 directions: 
 "1.Wrap each piece of beef tightly in a triple layer of cling film to set its shape, then chill overnight.
 
